@@ -1,0 +1,106 @@
+в командной строке
+copy NULL .gitconfig
+[user]
+	email=nashol.zdes@gmail.com
+	user=dimaneet
+	GIT BASH
+git clone https://github.com/dimaneet/28group.git
+
+origin master на удаленном репо
+origin/master рабочая локальная
+
+0)git status
+1) pwd     prosmotr gde ty
+2)ls -la  prosmotr directoriya
+3) cd
+4) cd ..
+5) cd -
+6) cd ~
+7) touch (создать файл)
+8) mkdir ( создать дерикторию)
+9) la    prosmotr direktoriii
+10) mv   peremeshenie
+11) cp   copy
+12) rm  del file
+13) rmdir deldirektor
+14)  cat   cat >
+15) cat >>
+16) find . -name(name)
+17) git fetch
+18) git add. все файлы
+19) git add файл
+20) git commit -m"comentariy"
+21) git pull скачать с репо
+22) git push  отправить в репо
+23) git log посмотреть все комиты
+24) git log --author 
+25) git show
+26) git show вставить хеш
+27) git blame 
+28) git blame file | grep 27
+29) git commit -a -m" vse faily"закомитеть все файлы
+30) git reset HEAD~1 откат на 1 комиты
+31) git commmit -am"zakomitet vse faily"
+32) git diff посмотреть изменение
+33) git checkout (file)   otkat izmeneniya faila
+34) git checkout . otkat izmeneniya vseh failov
+35) git stash скрыть изменение
+36) git stash pop показать изменение
+38) git stash clear удалить stash
+39) clear
+40) git branch в какой ты ветке
+41) git branch (name) создать ветку
+42) git checkout (name) переместится в ветку name
+43) echo "hoch dobavit stroku" >> lesson2.txt
+44) git push -u origin (ali_pay) отправить новую ветку в гитхаб
+45) git marge ( vetka)
+46) git branch -m vetka v kokuyu vetku
+
+
+
+
+
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+hoch dobavit stroku
+
+ ssh-keygen -t rsa -C "DmitryKondratiuk"
+ Enter file in which to save the key (/c/Users/Dmitry/.ssh/id_rsa):
+
